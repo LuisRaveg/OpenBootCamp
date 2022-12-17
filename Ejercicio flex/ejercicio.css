@@ -1,0 +1,24 @@
+h1{
+    text-align: center;
+    color: red;
+    font-family: Impact;
+    font-size: 20px;
+}
+
+
+.Galeria{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    
+}
+
+.imagen{
+    width: 300px;
+    height: 200px;
+}
+
+.imagen:hover{
+    opacity: 0.4;
+    cursor: pointer;
+}
