@@ -1,0 +1,22 @@
+h1{
+    color: red;
+    text-align: center;
+    font-family: Impact;
+    font-size: 25px;
+}
+hr{
+    color: blue;
+}
+body{
+    background-color: bisque;
+}
+.Boton::before{
+    content: "Pasa por encima";
+}
+.Boton:hover {
+    color: white;
+    background-color: green;   
+}
+.Boton::after{
+    content: " !Hecho!";
+}
